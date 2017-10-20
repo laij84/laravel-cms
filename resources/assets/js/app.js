@@ -28,10 +28,3 @@ Vue.use(Buefy, {defaultIconPack: 'fa'});
 //         password_options: 'keep'
 //     }
 // });
-
-
-$(document).ready(function(){
-    $('button.dropdown').hover(function(e) {
-        $(this).toggleClass('is-open');
-    })
-})
