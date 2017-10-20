@@ -11,7 +11,7 @@ window.Vue = require('vue');
 
 import Buefy from 'buefy';
 
-Vue.use(Buefy);
+Vue.use(Buefy, {defaultIconPack: 'fa'});
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

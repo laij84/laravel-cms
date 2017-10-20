@@ -26,3 +26,7 @@ Route::prefix('manage')->middleware('role:superadministrator|administrator|edito
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/datepicker', function () {
+    return view('datepicker');
+});

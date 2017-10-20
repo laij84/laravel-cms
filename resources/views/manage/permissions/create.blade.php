@@ -87,6 +87,14 @@
             </div>
           </div>
 
+          <b-field label="Select a date">
+            <b-datepicker
+              placeholder="Click to select..."
+              icon="calendar"
+              >
+            </b-datepicker>
+           </b-field>
+
           <button class="button is-success">Create Permission</button>
         </form>
       </div>
